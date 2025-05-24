@@ -36,4 +36,4 @@ This is a responsive and interactive personal portfolio website built with **HTM
 
 ---
 
-Built with ❤️ by Kaled Mesa
+Built with ❤️ by Kaled Mesa.

@@ -1,3 +1,7 @@
+/* Smooth scrolling without js */
+html {
+    scroll-behavior: smooth;
+}
 /* Basic page layout and typography */
 body {
     font-family: garamond, serif;
