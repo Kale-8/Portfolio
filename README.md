@@ -18,14 +18,14 @@ This is a responsive and interactive personal portfolio website built with **HTM
 
 - **HTML5** – Structure of the site
 - **CSS3** – Styling and responsive design
-- **JavaScript** – Interactivity (toggle, smooth scroll)
+- **JavaScript** – Interactivity (toggle)
 - **Font Awesome** – Icons for social media and skills
 
 ## 📸 Layout Highlights
 
 - Fixed left sidebar with profile photo and social icons.
 - Fixed right navigation bar with section links.
-- Responsive cards for each section using a colorful gradient background.
+- Responsive design using a colorful gradient background.
 - Smooth animations and interactive elements for better UX.
 
 ## 🧪 How to Run
