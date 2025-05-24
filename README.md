@@ -31,21 +31,8 @@ This is a responsive and interactive personal portfolio website built with **HTM
 ## 🧪 How to Run
 
 1. Clone or download the repository.
-2. Open `index.html` in any modern browser.
-3. Ensure internet connection to load Font Awesome via CDN.
-
-## 📁 File Structure
-
-```
-├── index.html       # Main webpage
-├── style.css        # Styling rules
-├── main.js          # JavaScript functionality
-├── pic.png          # Profile image
-```
-
-## 🔗 Live Demo
-
-You can easily deploy this using GitHub Pages or Netlify.
+2. Open `index.html` in any browser.
+3. Ensure internet connection to load Font Awesome.
 
 ---
 
