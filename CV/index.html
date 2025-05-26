@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-<!-- Basic page setup and meta tags -->
+<!-- Basic page setup and meta-tags -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +32,7 @@
         <li><a href="#languages">Languages</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#html">HTML Tags</a></li>
     </ul>
 </nav>
 <!-- Main content area -->
@@ -70,7 +71,7 @@
             </div>
             <p>
                 Frontend developer (freelance) - 6 years<br>Web developer at Infinita SAS - 1 year<br>Web scraper at
-                Talent.com - 2 years
+                Talent.com 2 years
             </p>
         </section>
         <!-- Skills section with icons -->
@@ -125,7 +126,7 @@
             </h3>
             <p>This is a Python program that allows you to manage a series of grades and calculate basic statistics.</p>
         </section>
-        <!-- Projects table view -->
+        <!-- Project table view -->
         <section class="card">
             <div>
                 <h2>Projects Table</h2>
@@ -179,7 +180,56 @@
                 </button>
             </form>
         </section>
+        <!-- Tags section -->
+        <section id="html" class="card">
+            <div>
+                <h2>HTML Tags</h2>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <!-- iFrame embed -->
+            <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ">
+            </iframe>
 
+            <!-- Progress bar -->
+            <progress value="70" max="100"></progress>
+
+            <!-- Details and Summary -->
+            <details>
+                <summary>Click to expand</summary>
+                <p>Hidden content here!</p>
+            </details>
+
+            <!-- Definition list -->
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+            </dl>
+
+            <!-- Meter -->
+            <meter value="0.6" min="0" max="1">60%</meter>
+
+            <!-- Time -->
+            <time datetime="2024-03-20">March 20, 2024</time>
+
+            <!-- Mark (highlight) -->
+            <p>This is
+                <mark>highlighted</mark>
+                text
+            </p>
+
+            <!-- Keyboard input -->
+            <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save</p>
+
+            <!-- Canvas -->
+            <canvas id="myCanvas" width="200" height="100"></canvas>
+
+            <!-- Fieldset and Legend -->
+            <fieldset>
+                <legend>Form Group</legend>
+                <input type="text" placeholder="Type something">
+            </fieldset>
+        </section>
     </div>
 </main>
 
