@@ -46,7 +46,7 @@ i {
     transition: 0.4s;
 }
 
-i:hover{
+i:hover {
     color: red;
     cursor: pointer;
 }
@@ -186,7 +186,7 @@ a:hover {
 }
 
 ::placeholder {
-  color: white;
+    color: white;
 }
 
 /* Navigation menu styling */
@@ -266,10 +266,13 @@ progress {
     height: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
-progress::-webkit-progress-bar {
-    background: rgba(255, 255, 255, 0.1);
+progress::-moz-progress-bar {
+    background: #dd1818;
     border-radius: 10px;
 }
 
@@ -390,4 +393,9 @@ fieldset input {
 fieldset input:focus {
     outline: none;
     background: rgba(255, 255, 255, 0.2);
+}
+
+.animate:hover { animation: animate infinite 3s ease-in-out }
+@keyframes animate {
+    50% { transform: translateY(30px) }
 }
