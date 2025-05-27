@@ -388,5 +388,5 @@ fieldset input:focus {
 
 .animate:hover { animation: animate infinite 3s ease-in-out }
 @keyframes animate {
-    50% { transform: translateY(30px) }
+    50% { transform: translateY(50px) }
 }
