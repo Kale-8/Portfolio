@@ -109,6 +109,10 @@ ul {
     text-align: center;
 }
 
+#skills li:last-child {
+    grid-column: 2;
+}
+
 a {
     color: white;
     text-decoration: none;
