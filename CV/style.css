@@ -102,6 +102,13 @@ ul {
     justify-content: center;
 }
 
+/* Grid styling */
+#skills.active ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
 a {
     color: white;
     text-decoration: none;
@@ -212,6 +219,10 @@ a:hover {
 
 /* Burger Menu Styles */
 .burger-menu {
+    background: #333333;
+    box-shadow: 0 0 8px 4px black;
+    padding: 1rem;
+    border-radius: 0 0 0 20px;
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -219,8 +230,8 @@ a:hover {
     height: 21px;
     cursor: pointer;
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 0;
+    right: 0;
     z-index: 101;
 }
 
