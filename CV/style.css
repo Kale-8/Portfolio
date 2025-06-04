@@ -263,6 +263,18 @@ a:hover {
 
 /* Mobile Navigation Styles */
 @media screen and (max-width: 768px) {
+
+    main {
+        width: 100%;
+        justify-content: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    header {
+        margin: 50px 0;
+    }
+
     .burger-menu {
         display: flex;
     }
@@ -293,21 +305,6 @@ a:hover {
 
     .nav-menu ul li a {
         font-size: 1.2rem;
-    }
-}
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-
-    main {
-        width: 100%;
-        justify-content: center;
-        padding: 0 20px;
-        box-sizing: border-box;
-    }
-
-    header {
-        margin: 50px 0;
     }
 }
 
